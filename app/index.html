@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Test Page</title>
+    <meta charset="utf-8"/>
+    <meta viewport="device-width" initial-scale="1"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/ico" href="icon.ico">
+</head>
+<body>
+    <div id="top">
+        <h4 id="welcome">Welcome To The World's</h4>
+        <h1 id="title">BEST SITE</h1>
+    </div>
+    <div id="box">
+        <div id="signinText"><h3>SIGN IN</h3></div>
+        <div class="inactiveTab" id="signupText"><h3>SIGN UP</h3></div>
+        <br><br>
+        <form id="form" method="POST" action="https://guitarbaba.firebaseio.com/users.json">
+            <div class="fields fullName">Full Name </div>
+            <input class="input fullName" type="text" name="firstname" value="Jon Snow">
+            <br>
+            <div class="fields email">Email </div>
+            <input class="input email" type="text" name="email" value="jonsnow@fucker.com">
+            <br>
+            <div class="fields country">Country </div>
+            <input class="input country" type="text" name="country" value="India">
+            <br>
+            <div class="fields password">Password </div>
+            <input class="input password" type="password" name="password" value="password">
+            <br>
+            <br>
+            <input id="mainButton" type="submit" value="Log In">
+        </form>
+    </div>
+    <script src="https://cdn.firebase.com/js/client/2.1.2/firebase.js"></script>
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

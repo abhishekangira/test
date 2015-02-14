@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    /*border: 1px solid black;*/
+}
+
+body {
+    background: #FFB7B7;
+}
+
+#top {
+    background-color: #FF8F88;
+    display: block;
+    margin: auto;
+    height: 290px;
+    width: 290px;
+    border: 2px solid black;
+    border-radius: 100%;
+    text-align: center;
+    margin-top: -180px;
+    cursor: pointer;
+}
+
+#welcome {
+    margin-top: 200px;
+    font-family: Courier;
+    font-weight: lighter;
+}
+
+#title {
+    font-family: Courier;
+}
+
+#box {
+    background-color: #FF8F88;
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    height: 245px;
+    width: 300px;
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    border-radius: 5%;
+}
+
+#signinText {
+    float: left;
+    cursor: pointer;
+    font-family: courier;
+    margin: -10px 0 10px -10px;
+    width: 155px;
+    height: 40px;
+    padding-top:10px;
+    border-top-left-radius: 20%;
+}
+
+#signupText {
+    float: right;
+    cursor: pointer;
+    font-family: courier;
+    margin: -10px -10px 10px 0;
+    width: 155px;
+    height: 40px;
+    padding-top:10px;
+    border-top-right-radius: 20%;
+}
+
+form {
+    margin-top: 35px;
+    height: auto;
+}
+
+.fullName, .country {
+    display: none;
+}
+
+.inactiveTab {
+    background: lightcoral;
+}
+
+.input {
+    height: 19px;
+    margin: 5px 5px 5px 0;
+    float: right;
+    padding: 2px;
+    color: #888888;
+}
+
+
+.fields {
+    clear: left;
+    float: left;
+    width: 110px;
+    margin: 6px 0 8px 5px;
+    padding: 5px 0 5px 0;
+    background: pink;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#mainButton {
+    clear: both;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    color: black;
+    background: lightpink;
+    border:none;
+    font-weight: bold;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-right:110px;
+}
+
+#mainButton:hover {
+    background: pink;
+    box-shadow: 0px 0px 10px 5px pink;
+}
