@@ -33,10 +33,10 @@ export default function Post() {
     <div className="p-5 grid gap-5">
       <h1 className="font-bold text-xl">{post.title}</h1>
       <p>{post.body}</p>
-      <h2>Comments:</h2>
-      <ol>
+      <h2 className="font-extrabold text-xl">Comments:</h2>
+      <ol className="grid gap-5">
         {comments.map((comment) => (
-          <li key={comment.id} className="grid gap-3">
+          <li key={comment.id} className="grid gap-2">
             <div className="flex gap-3">
               <h4 className="font-bold">{comment.name}</h4>
               <h5 className="text-slate-400">({comment.email})</h5>
